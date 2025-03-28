@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 800068289}
   - component: {fileID: 800068288}
   - component: {fileID: 800068287}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   seekerAI: {fileID: 1511045503}
   raycastLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 64
 --- !u!1 &1560010951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,7 +1433,7 @@ Transform:
   m_GameObject: {fileID: 1560010951}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
